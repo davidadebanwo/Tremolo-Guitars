@@ -1,0 +1,192 @@
+*{
+    font-family: var(--font-family);
+}
+.about__container{
+    /* margin: 30px; */
+    margin: -20px 10% 0 10%;
+}
+.about__container-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.about__container-content-title{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+}
+.about__container-content-title h1{
+    background: var(--linear-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 35px;
+}
+.about__container-content-title img{
+    transform: rotate(40deg);
+    margin-left: 40px;
+    height: 300px;
+    opacity: 70%;
+    animation: guitarmove infinite 5s;
+    transition: 1s;
+}
+.about__container-content-title img:hover{
+    
+}
+@keyframes guitarmove {
+    0%{
+        transform: rotate(40deg);
+        opacity: 70%;
+        filter: saturate(80%);
+    }
+    50%{
+        transform: rotate(55deg);
+        opacity: 100%;
+        filter: saturate(150%);
+    }
+    100%{
+        transform: rotate(40deg);
+        opacity: 70%;
+        filter: saturate(80%);
+    }
+}
+.about__container-content-no2{
+    
+}
+.about__container-content-paragraph{
+    background: transparent;
+    padding: 20px;
+    border-radius: 5px;
+    transition: 0.2s;
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.616);
+    border: 2px solid var(--color-orange-light);
+    /* height: 200px; */
+    margin-bottom: 20px;
+    /* margin: auto;
+    align-items: center; */
+}
+.about__container-content-paragraph p{
+    color: var(--color-orange-light);
+    font-size: 18px;
+}
+.about__container-content-guitarist{
+    /* position: absolute; */
+    left: 0;
+}
+.about__container-content-guitarist img{
+    width: 25%;
+    border-radius: 20%;
+    /* transform: skewX(10deg); */
+}
+.about__container-content-paragraph:hover{
+    background: transparent;
+    box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.616);
+    border: 2px solid var(--color-orange-light);
+    /* box-sizing: border-box; */
+}
+.about__container-content-paragraph p{
+    font-size: 18px;
+    /* color: var(--color-primary); */
+    transition: 0.2s;
+}
+
+.about__container-content-paragraph:hover p{
+    
+
+}
+
+.guitarist1{
+    /* position: absolute; */
+    margin-left: -5%;
+    z-index: 0;
+}
+.guitarist2{
+    /* position: absolute; */
+    margin-left: -5%;
+    z-index: -2;
+}
+.guitarist3{
+    /* position: absolute; */
+    margin-left: -5%;
+    z-index: -3;
+}
+
+@media screen and (max-width:1024px) {
+    .about__container-content-title h1{
+        font-size: 30px;
+    }
+    .about__container-content-title img{
+        transform: rotate(40deg);
+        margin-left: 40px;
+        height: 280px;
+    }
+    .about__container-content-paragraph{
+        background: transparent;
+        padding: 15px;
+        /* height: 200px; */
+        /* margin: auto;
+        align-items: center; */
+    }
+    .about__container-content-paragraph p{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .about__container-content-title h1{
+        font-size: 27px;
+    }
+    .about__container-content-title img{
+        transform: rotate(40deg);
+        margin-left: 40px;
+        height: 220px;
+    }
+    .about__container-content-paragraph{
+        background: transparent;
+        padding: 15px;
+        /* height: 200px; */
+        /* margin: auto;
+        align-items: center; */
+    }
+    .about__container-content-paragraph p{
+        font-size: 14px;
+    }
+    .about__container-content-guitarist img{
+        width: 28%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .about__container{
+        margin: 20px 7% 0 7%;
+    }
+    .about__container-content-title{
+        flex-direction: column;
+    }
+    .about__container-content-title h1{
+        font-size: 27px;
+    }
+    .about__container-content-paragraph p{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:450px) {
+        .about__container-content-title h1{
+            font-size: 25px;
+        }
+        .about__container-content-title img{
+            height: 220px;
+        }
+        .about__container-content-paragraph{
+            padding: 10px;
+        }
+        .about__container-content-paragraph p{
+            font-size: 12px;
+        }
+        .about__container-content-guitarist img{
+            width: 45%;
+        }
+}

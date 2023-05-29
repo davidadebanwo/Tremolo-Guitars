@@ -1,0 +1,185 @@
+.container__footer-big{
+    background-color: var(--color-light);
+    box-shadow: inset 20px 20px 200px rgba(0, 0, 0, 0.616);
+    margin-top: 80px;
+
+}
+.container__footer{
+    /* height: 40vh; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 50px 20px;
+    margin: 80px auto 0 auto;
+}
+.container__footer-companyname{
+    margin-top: -10px;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    /* margin: 40px auto 0 auto; */
+    text-align: left;
+    justify-content: center;
+}
+.container__footer-companyname img{
+    width: 50px;
+    height: 50px;
+}
+.container__footer-companyname h1{
+    font-size: 35px;
+    background: var(--linear-gradient1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+.container__footer-products{
+
+    flex: 0.5;
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+    justify-content: center;
+    /* margin: auto; */
+}
+.container__footer-products h2{
+    color: var(--color-text);
+    text-align: left;
+}
+.container__footer-products p{
+    color: var(--color-texty);
+    text-align: left;
+    transition: 0.5s;
+}
+.container__footer-products p:hover{
+    color: var(--color-text);
+    cursor: pointer;
+}
+.container__footer-navlinks{
+    
+    flex: 0.5;
+    display: flex;
+    flex-direction: column;
+    margin-top: -24px;
+    justify-content: center;
+    /* margin: auto; */
+}
+.container__footer-navlinks h2{
+    color: var(--color-text);
+    text-align: left;
+}
+.container__footer-navlinks p{
+    color: var(--color-texty);
+    text-align: left;
+    transition: 0.5s;
+}
+.container__footer-navlinks p:hover{
+    color: var(--color-text);
+    cursor: pointer;
+}
+
+
+.contact__footer-socials{
+    display: flex;
+    flex-direction: column;
+    flex: 0.5;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: column;
+    text-align: left;
+    /* margin: auto; */
+}
+
+.contact__footer-copyright{
+    /* text-align: right; */
+    padding: 0 0 20px 0px;
+    color: var(--color-primary-variant);
+    font-size: 14px;
+}
+
+@media screen and (max-width: 800px){
+    .container__footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+        /* padding-left: 47%; */
+    }
+    .container__footer-companyname img{
+        width: 40px;
+        height: 40px;
+    }
+    .container__footer h1{
+        font-size: 27px;
+    }
+    .container__footer h2{
+        font-size: 18px;
+        text-align: center;
+    }
+    .container__footer p{
+        font-size: 14px;
+        text-align: center;
+    }
+    .container__footer-companyname{
+        flex: unset;
+        text-align: center;
+        justify-content: center;
+        /* margin-right: 1000px; */
+    }
+    .container__footer-products{
+        flex: unset;
+        justify-content: center;
+        text-align: center;
+        width: 120px;
+        margin: auto;
+        /* padding-left: 40%; */
+    }
+    .container__footer-navlinks{
+        flex: unset;
+        justify-content: center;
+        text-align: center;
+        margin: auto;
+        width: 120px;
+        /* padding-left: 40%; */
+    }
+    .contact__footer-socials{
+        flex: unset;
+        justify-content: center;
+        text-align: center;
+        margin: auto;
+        flex-direction: row;
+        /* font-size: 15px; */
+        /* padding-left: 40%; */
+    }
+}
+
+@media screen and (max-width: 450px){
+    .container__footer h1{
+        font-size: 24px;
+    }
+    .container__footer h2{
+        font-size: 15px;
+        text-align: center;
+    }
+    .container__footer p{
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .container__footer-products{
+        width: 95px;
+    }
+    .container__footer-navlinks{
+        flex: unset;
+        justify-content: center;
+        text-align: center;
+        margin: auto;
+        width: 95px;
+        /* padding-left: 40%; */
+    }
+    .contact__footer-copyright{
+        font-size: 12px;
+    }
+}

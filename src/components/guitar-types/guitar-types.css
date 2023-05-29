@@ -1,0 +1,411 @@
+.guitarTypes__container-div{
+    margin-top: 50px;
+    justify-content: center;
+    padding: 10px;
+}
+.guitarTypes__container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    /* margin-left: 20px;
+    margin-right: 20px; */
+}
+
+.guitarTypes__container-div h1{
+    background: var(--linear-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+}
+
+
+.guitarTypes__container-acousticGuitar{
+    background-color: var(--color-light);
+    border-radius: 10px;
+    /* margin-right: 20px; */
+    box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.616);
+    width: 240px;
+    height: 340px;
+    padding: 10px;
+}
+.guitarTypes__container-acousticGuitar h2{
+    color: var(--color-texty);
+    font-size: 25px;
+}
+.guitarTypes__container-acousticGuitar img{
+    width: 250px;
+    transition: 0.5s;
+}
+.guitarTypes__container-acousticGuitar:hover img{
+    width: 265px;
+    background-color: ;
+}
+
+
+
+.guitarTypes__container-electricGuitar{
+    background-color: var(--color-light);
+    border-radius: 10px;
+    /* margin-right: 20px; */
+    box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.616);
+    width: 240px;
+    height: 340px;
+    padding: 10px;
+}
+.guitarTypes__container-electricGuitar h2{
+    color: var(--color-texty);
+    font-size: 25px;
+}
+.guitarTypes__container-electricGuitar img{
+    margin-top: 80px;
+    width: 250px;
+    transform: rotate(60deg);
+    transition: 0.5s;
+}
+.guitarTypes__container-electricGuitar:hover img{
+    width: 265px;
+    background-color: ;
+}
+
+
+
+.guitarTypes__container-bassGuitar{
+    background-color: var(--color-light);
+    border-radius: 10px;
+    /* margin-right: 20px; */
+    box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.616);
+    width: 240px;
+    height: 340px;
+    padding: 10px;
+}
+.guitarTypes__container-bassGuitar h2{
+    color: var(--color-texty);
+    font-size: 25px;
+}
+.guitarTypes__container-bassGuitar img{
+    margin-top: 80px;
+    width: 250px;
+    transform: rotate(240deg);
+    transition: 0.5s;
+}
+.guitarTypes__container-bassGuitar:hover img{
+    width: 265px;
+    background-color: ;
+}
+
+
+.guitarTypes__container-amp{
+    background-color: var(--color-light);
+    border-radius: 10px;
+    box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.616);
+    width: 240px;
+    height: 340px;
+    padding: 10px;
+}
+.guitarTypes__container-amp h2{
+    color: var(--color-texty);
+    font-size: 25px;
+}
+.guitarTypes__container-amp img{
+    margin-top: 80px;
+    width: 170px;
+    transition: 0.5s;
+}
+.guitarTypes__container-amp:hover img{
+    width: 185px;
+}
+
+
+.guitarTypes__container-accessories{
+    background-color: var(--color-light);
+    border-radius: 10px;
+    box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.616);
+    width: 240px;
+    height: 340px;
+    padding: 10px;
+}
+.guitarTypes__container-accessories h2{
+    color: var(--color-texty);
+    font-size: 25px;
+}
+.guitarTypes__container-accessories img{
+    margin-top: 20px;
+    width: 220px;
+    transition: 0.5s;
+}
+.guitarTypes__container-accessories img:hover{
+    width: 235px;
+}
+
+
+
+
+@media screen and (max-width:1024px) {
+    .guitarTypes__container-div h1{
+        font-size: 30px;
+    }
+
+    .guitarTypes__container-acousticGuitar{
+        width: 210px;
+        height: 300px;
+    }
+    .guitarTypes__container-electricGuitar{
+        width: 210px;
+        height: 300px;
+    }
+    .guitarTypes__container-bassGuitar{
+        width: 210px;
+        height: 300px;
+    }
+    .guitarTypes__container-amp{
+        width: 210px;
+        height: 300px;
+    }
+    .guitarTypes__container-accessories{
+        width: 210px;
+        height: 300px;
+    }
+
+    .guitarTypes__container-acousticGuitar h2{
+        font-size: 20px;
+    }
+    .guitarTypes__container-electricGuitar h2{
+        font-size: 20px;
+    }
+    .guitarTypes__container-bassGuitar h2{
+        font-size: 20px;
+    }
+    .guitarTypes__container-amp h2{
+        font-size: 20px;
+    }
+    .guitarTypes__container-accessories h2{
+        font-size: 20px;
+    }
+
+
+
+    .guitarTypes__container-acousticGuitar img{
+        width: 220px;
+        transition: 0.5s;
+    }
+    .guitarTypes__container-acousticGuitar:hover img{
+        width: 235px;
+        background-color: ;
+    }
+
+
+    .guitarTypes__container-electricGuitar img{
+    width: 220px;
+    }
+    .guitarTypes__container-electricGuitar:hover img{
+    width: 235px;
+    }
+
+
+    .guitarTypes__container-bassGuitar img{
+    width: 220px;
+    }
+    .guitarTypes__container-bassGuitar:hover img{
+    width: 235px;
+    }
+
+
+    .guitarTypes__container-amp img{
+        margin-top: 80px;
+        width: 140px;
+        transition: 0.5s;
+    }
+    .guitarTypes__container-amp:hover img{
+        width: 155px;
+    }
+    
+
+    .guitarTypes__container-accessories img{
+        width: 185px;
+    }
+    .guitarTypes__container-accessories img:hover{
+        width: 200px;
+    }
+}
+
+
+@media screen and (max-width:600px) {
+    .guitarTypes__container-div h1{
+        font-size: 25px;
+    }
+    .guitarTypes__container{
+        gap: 10px;
+    }
+    .guitarTypes__container-acousticGuitar{
+        width: 170px;
+        height: 270px;
+    }
+    .guitarTypes__container-electricGuitar{
+        width: 170px;
+        height: 270px;
+    }
+    .guitarTypes__container-bassGuitar{
+        width: 170px;
+        height: 270px;
+    }
+    .guitarTypes__container-amp{
+        width: 170px;
+        height: 270px;
+    }
+    .guitarTypes__container-accessories{
+        width: 170px;
+        height: 270px;
+    }
+
+    .guitarTypes__container-acousticGuitar h2{
+        font-size: 20px;
+    }
+    .guitarTypes__container-electricGuitar h2{
+        font-size: 20px;
+    }
+    .guitarTypes__container-bassGuitar h2{
+        font-size: 20px;
+    }
+    .guitarTypes__container-amp h2{
+        font-size: 20px;
+    }
+    .guitarTypes__container-accessories h2{
+        font-size: 20px;
+    }
+
+
+
+    .guitarTypes__container-acousticGuitar img{
+        width: 180px;
+        transition: 0.5s;
+    }
+    .guitarTypes__container-acousticGuitar:hover img{
+        width: 195px;
+        background-color: ;
+    }
+
+
+    .guitarTypes__container-electricGuitar img{
+        width: 180px;
+    }
+    .guitarTypes__container-electricGuitar:hover img{
+        width: 195px;
+    }
+
+
+    .guitarTypes__container-bassGuitar img{
+        width: 180px;
+    }
+    .guitarTypes__container-bassGuitar:hover img{
+        width: 195px;
+    }
+
+
+    .guitarTypes__container-amp img{
+        width: 110px;
+    }
+    .guitarTypes__container-amp:hover img{
+        width: 125px;
+    }
+    
+
+    .guitarTypes__container-accessories img{
+        width: 160px;
+    }
+    .guitarTypes__container-accessories img:hover{
+        width: 175px;
+    }
+}
+
+
+@media screen and (max-width:450px) {
+    .guitarTypes__container-div h1{
+        font-size: 30px;
+    }
+
+    .guitarTypes__container-acousticGuitar{
+        width: 150px;
+        height: 220px;
+    }
+    .guitarTypes__container-electricGuitar{
+        width: 150px;
+        height: 220px;
+    }
+    .guitarTypes__container-bassGuitar{
+        width: 150px;
+        height: 220px;
+    }
+    .guitarTypes__container-amp{
+        width: 150px;
+        height: 220px;
+    }
+    .guitarTypes__container-accessories{
+        width: 150px;
+        height: 220px;
+    }
+
+    .guitarTypes__container-acousticGuitar h2{
+        font-size: 18px;
+    }
+    .guitarTypes__container-electricGuitar h2{
+        font-size: 18px;
+    }
+    .guitarTypes__container-bassGuitar h2{
+        font-size: 18px;
+    }
+    .guitarTypes__container-amp h2{
+        font-size: 18px;
+    }
+    .guitarTypes__container-accessories h2{
+        font-size: 18px;
+    }
+
+
+
+    .guitarTypes__container-acousticGuitar img{
+        width: 140px;
+        transition: 0.5s;
+    }
+    .guitarTypes__container-acousticGuitar:hover img{
+        width: 155px;
+        background-color: ;
+    }
+
+
+    .guitarTypes__container-electricGuitar img{
+        width: 140px;
+        margin-top: 50px;
+    }
+    .guitarTypes__container-electricGuitar:hover img{
+        width: 155px;
+    }
+
+
+    .guitarTypes__container-bassGuitar img{
+        width: 140px;
+        margin-top: 50px;
+    }
+    .guitarTypes__container-bassGuitar:hover img{
+        width: 155px;
+    }
+
+
+    .guitarTypes__container-amp img{
+        width: 110px;
+        margin-top: 20px;
+    }
+    .guitarTypes__container-amp:hover img{
+        width: 125px;
+    }
+    
+
+    .guitarTypes__container-accessories img{
+        width: 135px;
+        margin-top:0px;
+    }
+    .guitarTypes__container-accessories img:hover{
+        width: 145px;
+    }
+}
